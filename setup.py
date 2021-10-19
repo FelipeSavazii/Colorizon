@@ -5,9 +5,6 @@ version = '1.0.0'
 
 packages = [
     'colorizon',
-    'colorizon.backgrounds',
-    'discord.colors',
-    'discord.formattings',
 ]
 
 setup(name='colorizon',
