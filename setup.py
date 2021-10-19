@@ -3,8 +3,9 @@ import re
 
 version = '1.0.0'
 
-with open("README.md", "r", encoding="utf-8") as fh:
-    long_description = fh.read()
+readme = ''
+with open('README.rst') as f:
+    readme = f.read()
 
 packages = [
     'colorizon',
@@ -22,8 +23,8 @@ setup(name='colorizon',
       packages=packages,
       license='MIT',
       description='A small library to make it easy to use colors in Python',
-      long_description=long_description,
-      long_description_content_type="text/markdown",
+      long_description=readme,
+      long_description_content_type="text/x-rst",
       include_package_data=True,
       python_requires='>=3.8.0',
       classifiers=[
