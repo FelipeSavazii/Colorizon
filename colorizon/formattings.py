@@ -26,20 +26,20 @@ class Formattings:
   def normal(self):
     return f'\033[0m'
 
-  def bold(texto):
+  def bold(self, texto):
     return f'\033[01m{texto}\033[0m'
   
-  def desable(texto):
+  def desable(self, texto):
     return f'\033[02m{texto}\033[0m'
 
-  def underline(texto):
+  def underline(self, texto):
     return f'\033[04m{texto}\033[0m'
 
-  def reverse(texto):
+  def reverse(self, texto):
     return f'\033[07m{texto}\033[0m'
 
-  def strikethrough(texto):
+  def strikethrough(self, texto):
     return f'\033[09m{texto}\033[0m'
 
-  def invisible(texto):
+  def invisible(self, texto):
     return f'\033[08m{texto}\033[0m'
