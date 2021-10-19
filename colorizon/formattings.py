@@ -29,7 +29,7 @@ class Formattings:
   def bold(self, texto):
     return f'\033[01m{texto}\033[0m'
   
-  def desable(self, texto):
+  def disable(self, texto):
     return f'\033[02m{texto}\033[0m'
 
   def underline(self, texto):
