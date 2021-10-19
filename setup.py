@@ -16,7 +16,7 @@ setup(name='colorizon',
       author_email="dev@felipesavazi.com",
       url='https://github.com/FelipeSavazii/Colorizon',
       project_urls={
-        "Documentation": "https://github.com/FelipeSavazii/Colorizon/tree/main/docs",
+        "Documentation": "https://github.com/FelipeSavazii/Colorizon#documentation",
         "Issue tracker": "https://github.com/FelipeSavazii/Colorizon/issues",
       },
       version=version,
