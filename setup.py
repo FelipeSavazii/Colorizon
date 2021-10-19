@@ -1,7 +1,7 @@
 from setuptools import setup
 import re
 
-version = '1.0.0'
+version = '0.0.1'
 
 readme = ''
 with open('README.rst') as f:
