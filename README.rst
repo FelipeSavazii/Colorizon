@@ -114,5 +114,4 @@ Documentation
 Links
 ------
 
-- Documentation: Coming soon
 - `Official Discord Server <https://discord.gg/hnmA4ScM3d>`_
