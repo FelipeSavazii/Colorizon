@@ -47,6 +47,70 @@ Quick Example
     print(Colors().pink('I love you, Ariana Grande.'))
     print(Formattings().bold('Excuse me, i love you!'))
 
+Documentation
+--------------
+
+**Attributes for Backgrounds():**
+
+.. code:: py 
+
+    Backgrounds()
+
+.. code:: py 
+
+   .black(text)
+   .red(text)
+   .green(text)
+   .orange(text)
+   .blue(text)
+   .purple(text)
+   .cyan(text)
+   .lightcyan(text)
+
+--------------
+
+**Attributes for Colors():**
+
+.. code:: py 
+
+    Colors()
+
+.. code:: py 
+
+   .black(text)
+   .red(text)
+   .green(text)
+   .orange(text)
+   .blue(text)
+   .purple(text)
+   .cyan(text)
+   .lightgray(text)
+   .darkgray(text)
+   .lightred(text)
+   .lightgreen(text)
+   .yellow(text)
+   .lightblue(text)
+   .pink(text)
+   .lightcyan(text)
+
+--------------
+
+**Attributes for Formattings():**
+
+.. code:: py 
+
+    Formattings()
+
+.. code:: py 
+
+   .normal()
+   .bold(text)
+   .disable(text)
+   .underline(text)
+   .reverse(text)
+   .strikethrough(text)
+   .invisible(text)
+
 Links
 ------
 
